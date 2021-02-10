@@ -1,0 +1,1 @@
+<?php return array('dependencies' => array('citeproc', 'lodash', 'wp-block-editor', 'wp-blocks', 'wp-components', 'wp-data', 'wp-element', 'wp-i18n', 'wp-polyfill'), 'version' => '643653eb3f8e8ebd5f6db95e64ccbc29');

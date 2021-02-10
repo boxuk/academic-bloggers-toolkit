@@ -1,0 +1,670 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"X-Generator: babel-plugin-makepot\n"
+
+#: src/js/components/file-input/index.tsx:4
+msgid "Choose file..."
+msgstr ""
+
+#: src/js/components/style-search/index.tsx:48
+msgid "Invalid citation style"
+msgstr ""
+
+#: src/js/components/style-search/index.tsx:55
+msgid "Search for a citation style..."
+msgstr ""
+
+#: src/js/gutenberg/blocks/bibliography/edit.tsx:15
+msgid "Bibliography Settings"
+msgstr ""
+
+#: src/js/gutenberg/blocks/bibliography/edit.tsx:16
+msgid "Heading Level"
+msgstr ""
+
+#: src/js/gutenberg/blocks/bibliography/edit.tsx:19
+msgid "Heading %d"
+msgstr ""
+
+#: src/js/gutenberg/blocks/bibliography/edit.tsx:24
+msgid "Heading Alignment"
+msgstr ""
+
+#: src/js/gutenberg/blocks/bibliography/edit.tsx:28
+msgid "Toggle mode can only be enabled if the bibliography has a heading."
+msgstr ""
+
+#: src/js/gutenberg/blocks/bibliography/edit.tsx:28
+msgid "Enable toggle"
+msgstr ""
+
+#: src/js/gutenberg/blocks/bibliography/edit.tsx:38
+#: src/js/gutenberg/blocks/bibliography/index.ts:7
+#: src/js/gutenberg/blocks/bibliography/save.tsx:10
+msgid "Bibliography"
+msgstr ""
+
+#: src/js/gutenberg/blocks/bibliography/edit.tsx:60
+msgid "Write heading..."
+msgstr ""
+
+#: src/js/gutenberg/blocks/bibliography/index.ts:9
+msgid "Display a list of your cited references."
+msgstr ""
+
+#: src/js/gutenberg/blocks/footnotes/edit.tsx:4
+#: src/js/gutenberg/blocks/footnotes/index.ts:6
+#: src/js/gutenberg/blocks/footnotes/save.tsx:6
+#: src/js/gutenberg/sidebar/sidebar.tsx:62
+msgid "Footnotes"
+msgstr ""
+
+#: src/js/gutenberg/blocks/footnotes/index.ts:8
+msgid "Display a list of footnotes"
+msgstr ""
+
+#: src/js/gutenberg/blocks/static-bibliography/edit.tsx:26
+msgid ""
+"Double click on one or more items in the list below to insert them into the "
+"end of the list."
+msgstr ""
+
+#: src/js/gutenberg/blocks/static-bibliography/edit.tsx:28
+msgid "Available References"
+msgstr ""
+
+#: src/js/gutenberg/blocks/static-bibliography/edit.tsx:36
+msgid "Convert to unordered list"
+msgstr ""
+
+#: src/js/gutenberg/blocks/static-bibliography/edit.tsx:44
+msgid "Convert to ordered list"
+msgstr ""
+
+#: src/js/gutenberg/blocks/static-bibliography/edit.tsx:53
+#: src/js/gutenberg/blocks/static-bibliography/save.tsx:7
+msgid "References"
+msgstr ""
+
+#: src/js/gutenberg/blocks/static-bibliography/edit.tsx:61
+msgid "No references added yet"
+msgstr ""
+
+#: src/js/gutenberg/blocks/static-bibliography/edit.tsx:62
+msgid ""
+"Add references to this list by double clicking one or more items listed in "
+"the \"Avaliable References\" section of the block settings panel."
+msgstr ""
+
+#: src/js/gutenberg/blocks/static-bibliography/index.ts:11
+msgid "Display a static list of references."
+msgstr ""
+
+#: src/js/gutenberg/blocks/static-bibliography/index.ts:14
+msgid "reference"
+msgstr ""
+
+#: src/js/gutenberg/blocks/static-bibliography/index.ts:15
+msgid "citation"
+msgstr ""
+
+#: src/js/gutenberg/blocks/static-bibliography/index.ts:16
+msgid "sources"
+msgstr ""
+
+#: src/js/gutenberg/blocks/static-bibliography/index.ts:9
+msgid "Static Bibliography"
+msgstr ""
+
+#: src/js/gutenberg/blocks/static-bibliography/live-item.tsx:10
+msgid "Move item up"
+msgstr ""
+
+#: src/js/gutenberg/blocks/static-bibliography/live-item.tsx:11
+msgid "Remove item"
+msgstr ""
+
+#: src/js/gutenberg/blocks/static-bibliography/live-item.tsx:12
+msgid "Move item down"
+msgstr ""
+
+#: src/js/gutenberg/components/autocite/index.tsx:26
+msgid "Autocite"
+msgstr ""
+
+#: src/js/gutenberg/components/autocite/index.tsx:37
+msgid "Search"
+msgstr ""
+
+#: src/js/gutenberg/components/autocite/index.tsx:59
+#: src/js/gutenberg/components/reference-form-identifier/index.tsx:28
+msgid "Unable to retrieve data for identifier: %s"
+msgstr ""
+
+#: src/js/gutenberg/components/people-fields/index.tsx:10
+msgid "Contributors"
+msgstr ""
+
+#: src/js/gutenberg/components/people-fields/index.tsx:15
+msgid "Remove contributor"
+msgstr ""
+
+#: src/js/gutenberg/components/people-fields/index.tsx:18
+msgid "Add contributor"
+msgstr ""
+
+#: src/js/gutenberg/components/people-fields/index.tsx:40
+msgid "Last name"
+msgstr ""
+
+#: src/js/gutenberg/components/people-fields/index.tsx:44
+msgid "First name"
+msgstr ""
+
+#: src/js/gutenberg/components/people-fields/index.tsx:49
+msgid "Literal name"
+msgstr ""
+
+#: src/js/gutenberg/components/people-fields/index.tsx:54
+msgid "Toggle single name"
+msgstr ""
+
+#: src/js/gutenberg/components/people-fields/index.tsx:55
+msgid "Toggle group name"
+msgstr ""
+
+#: src/js/gutenberg/components/reference-form-identifier/index.tsx:25
+msgid "Invalid indentifier type: %s"
+msgstr ""
+
+#: src/js/gutenberg/components/reference-form-identifier/index.tsx:58
+#: src/js/utils/fieldmaps.ts:543
+msgid "DOI"
+msgstr ""
+
+#: src/js/gutenberg/components/reference-form-identifier/index.tsx:61
+msgid "PMID"
+msgstr ""
+
+#: src/js/gutenberg/components/reference-form-identifier/index.tsx:64
+msgid "PMCID"
+msgstr ""
+
+#: src/js/gutenberg/components/reference-form-manual/index.tsx:79
+msgid "Citation type"
+msgstr ""
+
+#: src/js/gutenberg/components/reference-form-manual/index.tsx:94
+#: src/js/utils/fieldmaps.ts:202
+msgid "ISBN"
+msgstr ""
+
+#: src/js/gutenberg/components/reference-form-manual/index.tsx:96
+#: src/js/utils/fieldmaps.ts:1060
+msgid "URL"
+msgstr ""
+
+#: src/js/gutenberg/dialogs/add-footnote/index.tsx:29
+#: src/js/gutenberg/formats/footnote/footnote.tsx:17
+msgid "Add footnote"
+msgstr ""
+
+#: src/js/gutenberg/dialogs/add-reference/dialog.tsx:20
+msgid "Add manually"
+msgstr ""
+
+#: src/js/gutenberg/dialogs/add-reference/dialog.tsx:22
+#: src/js/gutenberg/dialogs/add-reference/index.tsx:14
+msgid "Add Reference"
+msgstr ""
+
+#: src/js/gutenberg/dialogs/add-reference/index.tsx:13
+msgid "Add reference"
+msgstr ""
+
+#: src/js/gutenberg/dialogs/edit-reference/index.tsx:16
+msgid "Update Reference"
+msgstr ""
+
+#: src/js/gutenberg/dialogs/update-style/dialog.tsx:20
+msgid "Confirm"
+msgstr ""
+
+#: src/js/gutenberg/dialogs/update-style/index.tsx:14
+msgid "Change citation style"
+msgstr ""
+
+#: src/js/gutenberg/formats/citation/citation.tsx:19
+msgid "Insert citation"
+msgstr ""
+
+#: src/js/gutenberg/formats/citation/index.ts:8
+msgid "Citation"
+msgstr ""
+
+#: src/js/gutenberg/formats/footnote/footnote.tsx:26
+msgid "Remove Footnote"
+msgstr ""
+
+#: src/js/gutenberg/formats/footnote/footnote.tsx:27
+msgid "Add Footnote"
+msgstr ""
+
+#: src/js/gutenberg/formats/footnote/index.ts:8
+msgid "Footnote"
+msgstr ""
+
+#: src/js/gutenberg/sidebar/sidebar.tsx:47
+msgid "Edit reference"
+msgstr ""
+
+#: src/js/gutenberg/sidebar/sidebar.tsx:52
+msgid "Academic Blogger's Toolkit"
+msgstr ""
+
+#: src/js/gutenberg/sidebar/sidebar.tsx:54
+msgid "Reference List"
+msgstr ""
+
+#: src/js/gutenberg/sidebar/sidebar.tsx:56
+msgid "Cited Items"
+msgstr ""
+
+#: src/js/gutenberg/sidebar/sidebar.tsx:59
+msgid "Uncited Items"
+msgstr ""
+
+#: src/js/gutenberg/sidebar/toolbar-menu.tsx:34
+msgid "Remove all citations"
+msgstr ""
+
+#: src/js/gutenberg/sidebar/toolbar-menu.tsx:37
+msgid "Refresh all items"
+msgstr ""
+
+#: src/js/gutenberg/sidebar/toolbar-menu.tsx:44
+#. Form label.
+msgid "Sort uncited by"
+msgstr ""
+
+#: src/js/gutenberg/sidebar/toolbar-menu.tsx:49
+#: src/js/utils/fieldmaps.ts:1067
+msgid "Date"
+msgstr ""
+
+#: src/js/gutenberg/sidebar/toolbar-menu.tsx:55
+#: src/js/utils/fieldmaps.ts:884
+msgid "Publication"
+msgstr ""
+
+#: src/js/gutenberg/sidebar/toolbar-menu.tsx:61
+#: src/js/utils/fieldmaps.ts:992
+msgid "Title"
+msgstr ""
+
+#: src/js/gutenberg/sidebar/toolbar-menu.tsx:68
+#. Form label.
+msgid "Sort order"
+msgstr ""
+
+#: src/js/gutenberg/sidebar/toolbar-menu.tsx:83
+msgid "Usage instructions"
+msgstr ""
+
+#: src/js/gutenberg/sidebar/toolbar-menu.tsx:88
+#. Button label telling users that clicking shows additional options.
+msgid "More options"
+msgstr ""
+
+#: src/js/gutenberg/sidebar/toolbar.tsx:30
+msgid "Remove selected items"
+msgstr ""
+
+#: src/js/gutenberg/sidebar/toolbar.tsx:37
+msgid "Import references"
+msgstr ""
+
+#: src/js/gutenberg/sidebar/toolbar.tsx:48
+msgid "Invalid import file type. File must be a valid BibTeX or RIS file."
+msgstr ""
+
+#: src/js/options-page/style-form.tsx:15
+msgid "Citation style type"
+msgstr ""
+
+#: src/js/options-page/style-form.tsx:18
+#. Label for radio group for choosing a "predefined" citation style.
+msgid "Predefined"
+msgstr ""
+
+#: src/js/options-page/style-form.tsx:23
+#. Label for radio group for choosing a "custom" citation style.
+msgid "Custom"
+msgstr ""
+
+#: src/js/options-page/style-form.tsx:34
+msgid "Error"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:1003
+msgid "University"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:1010
+msgid "Location"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:1042
+msgid "Web Page"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:1046
+msgid "Content Title"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:1053
+msgid "Website Title"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:1075
+msgid "Date Accessed"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:1085
+msgid "Author"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:142
+msgid "Book Chapter"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:146
+msgid "Chapter Title"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:153
+msgid "Book Title"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:16
+msgid "Bill Number"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:160
+msgid "Chapter Number"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:20
+msgid "Code Pages"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:229
+msgid "Section Author"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:233
+msgid "Book Author"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:24
+msgid "Code Volume"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:250
+msgid "Broadcast"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:258
+msgid "Program Title"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:265
+msgid "Episode Number"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:273
+msgid "Network"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:308
+msgid "Conference Proceeding"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:319
+msgid "Conference Name"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:32
+msgid "Legislative Body"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:326
+msgid "Conference Location"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:361
+msgid "Encyclopedia Entry"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:372
+msgid "Encyclopedia Title"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:383
+msgid "Series Number"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:391
+msgid "# of Volumes"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:395
+msgid "Edition"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:403
+msgid "Publisher Location"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:450
+msgid "Film"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:461
+msgid "Distributor"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:465
+msgid "Genre"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:473
+msgid "Format"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:496
+msgid "Scriptwriter"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:5
+msgid "Bill"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:500
+msgid "Director"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:504
+msgid "Producer"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:509
+msgid "Journal Article"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:520
+msgid "Journal"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:527
+msgid "Journal Abbreviation"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:55
+msgid "Sponsor"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:571
+msgid "Legal Case"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:575
+msgid "Case Name"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:582
+msgid "Court"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:589
+msgid "Docket Number"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:60
+msgid "Book"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:621
+msgid "Magazine Article"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:632
+msgid "Magazine"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:639
+msgid "Volume"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:654
+msgid "ISSN"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:690
+msgid "Newspaper Article"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:71
+msgid "Series Title"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:719
+msgid "Issue"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:750
+msgid "Editor"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:755
+msgid "Patent"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:773
+msgid "Jurisdiction"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:784
+msgid "Issuing Authority"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:814
+msgid "Inventor"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:819
+msgid "Presentation"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:830
+msgid "Event Name"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:837
+msgid "Event Location"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:841
+msgid "Language"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:856
+msgid "Presenter"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:861
+msgid "Report"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:872
+msgid "Report Type"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:876
+msgid "Number"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:880
+msgid "Series"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:888
+msgid "Publisher"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:929
+msgid "Series Editor"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:933
+msgid "Translator"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:938
+msgid "Statute"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:949
+msgid "Statute Number"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:953
+msgid "Section"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:957
+msgid "Pages"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:988
+msgid "Thesis"
+msgstr ""
+
+#: src/js/utils/fieldmaps.ts:999
+msgid "# of Pages"
+msgstr ""
+
+#: src/js/utils/file.ts:44
+msgid "Error parsing CSL file."
+msgstr ""
+
+#: src/js/gutenberg/components/reference-item/index.tsx:17
+msgctxt "Abbreviation for \"no publisher\""
+msgid "n.p."
+msgstr ""
+
+#: src/js/utils/csl.ts:8
+msgctxt "Abbreviation for \"no date\""
+msgid "n.d."
+msgstr ""
