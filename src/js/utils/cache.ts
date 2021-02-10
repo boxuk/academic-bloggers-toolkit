@@ -36,6 +36,16 @@ abstract class AbstractCache<T> {
     abstract async fetchItem(key: string): Promise<T>;
 
     getItem(key: string): T | null {
+        if (key === 'en-US') {
+            // We may have a situation where we actually want to retrieve an en-GB entry, so attempt that if en-US fails.
+            if (this.cache[key]) {
+                return this.cache[key];
+            } else if (this.cache['en-GB']) {
+                return this.cache['en-GB'];
+            } else {
+                return null;
+            }
+        }
         return this.cache[key] || null;
     }
     removeItem(key: string): void {
