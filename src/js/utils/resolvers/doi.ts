@@ -19,7 +19,10 @@ export async function get(doi: string): Promise<CSL.Data | ResponseError> {
         if (isCslStringKey(key) && typeof value !== 'string') {
             return false;
         }
-        if (isCslNumberKey(key) && typeof value !== 'number') {
+        if (
+            isCslNumberKey(key) &&
+            (typeof value !== 'number' && typeof value !== 'string')
+        ) {
             return false;
         }
         return true;
