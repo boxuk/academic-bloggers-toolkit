@@ -18,6 +18,10 @@ use function ABT\Utils\add_json_script;
  */
 function enqueue_scripts() {
 	global $post;
+	if ( ! $post ) {
+		return;
+	}
+
 	wp_enqueue_style( 'abt-editor' );
 	wp_enqueue_script( 'abt-editor' );
 
