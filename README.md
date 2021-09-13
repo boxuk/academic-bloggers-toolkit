@@ -43,3 +43,13 @@ An **open source** WordPress plugin providing an all-in-one solution for effecti
 ## Contributing
 
 If you'd like to contribute to this project, please read the [contributor guide](./.github/CONTRIBUTING.md).
+
+## Building
+
+If you'd like to build a production version of the plugin and push to the `built` branch, use the following steps:
+
+* `npm run build`
+* `git checkout origin built`
+* `cp -r dist/* .`
+* `git add --all -- ':!dist/*' ':!src/*' ':!node_modules/*'`
+* `git push origin built`
