@@ -600,6 +600,69 @@ const CSL_FIELDS: Readonly<Record<string, FieldMapping>> = {
             },
         ],
     },
+    'journal-article': {
+        title: __('Journal Article', 'academic-bloggers-toolkit'),
+        fields: [
+            {
+                key: 'title',
+                label: __('Title', 'academic-bloggers-toolkit'),
+                inputProps: {
+                    required: true,
+                },
+            },
+            {
+                key: 'container-title',
+                label: __('Journal', 'academic-bloggers-toolkit'),
+                inputProps: {
+                    required: true,
+                },
+            },
+            {
+                key: 'journalAbbreviation',
+                label: __('Journal Abbreviation', 'academic-bloggers-toolkit'),
+            },
+            {
+                key: 'volume',
+                label: __('Volume', 'academic-bloggers-toolkit'),
+            },
+            {
+                key: 'issue',
+                label: __('Issue', 'academic-bloggers-toolkit'),
+            },
+            {
+                key: 'page',
+                label: __('Pages', 'academic-bloggers-toolkit'),
+            },
+            {
+                key: 'DOI',
+                label: __('DOI', 'academic-bloggers-toolkit'),
+            },
+            {
+                key: 'URL',
+                label: __('URL', 'academic-bloggers-toolkit'),
+            },
+            {
+                key: 'issued',
+                label: __('Date', 'academic-bloggers-toolkit'),
+                inputProps: {
+                    required: true,
+                    pattern:
+                        '[0-2][0-9]{3}(?:(\\/(?:0[1-9]|1[0-2]))(\\/(?:[0-2][0-9]|3[0-1]))?)?',
+                    title: 'YYYY/MM/DD or YYYY/MM or YYYY',
+                },
+            },
+        ],
+        people: [
+            {
+                key: 'author',
+                label: __('Author', 'academic-bloggers-toolkit'),
+            },
+            {
+                key: 'editor',
+                label: __('Editor', 'academic-bloggers-toolkit'),
+            },
+        ],
+    },
     legal_case: {
         title: __('Legal Case', 'academic-bloggers-toolkit'),
         fields: [

@@ -148,7 +148,7 @@ function ReferenceFormManual(props: Props) {
                             onSubmit={consumeData}
                         />
                     )}
-                    <PeopleFields fields={fields[data.type].people} />
+                    <PeopleFields fields={fields[data.type]?.people} />
                     <DataFields fieldmap={fields[data.type]} />
                 </form>
             </DataContext.Provider>
