@@ -70,7 +70,7 @@
     "@wordpress/rich-text": "^3.7.2",
     "@wordpress/url": "^2.8.2",
     "astrocite": "^0.16.0",
-    "citeproc": "^2.2.27",
+    "citeproc": "^2.4.63",
     "classnames": "^2.2.6",
     "dompurify": "^2.0.7",
     "fuse.js": "^3.4.5",
